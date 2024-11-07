@@ -51,6 +51,10 @@ public class Menu {
             
             case 6:
                 JOptionPane.showMessageDialog(null, "Hasta Luego");
+                break;
+                
+            default:
+                JOptionPane.showMessageDialog(null, "Ingrese una opción valida");
         }
     }}
 }
